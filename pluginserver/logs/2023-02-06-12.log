@@ -1,0 +1,69 @@
+[03:16:51] [ServerMain/INFO]: Building unoptimized datafixer
+[03:16:52] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:16:54] [ServerMain/INFO]: Loaded 7 recipes
+[03:16:54] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[03:16:54] [Server thread/INFO]: Loading properties
+[03:16:54] [Server thread/INFO]: This server is running Paper version git-Paper-386 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 4da844f)
+[03:16:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:16:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:16:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 5 worker threads, and gen parallelism of 5 threads
+[03:16:54] [Server thread/INFO]: Default game type: SURVIVAL
+[03:16:54] [Server thread/INFO]: Generating keypair
+[03:16:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:16:55] [Server thread/INFO]: Using default channel type
+[03:16:55] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[03:16:55] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[03:16:55] [Server thread/INFO]: [DiggerCraft] Loading DiggerCraft v1.0-SNAPSHOT
+[03:16:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:16:55] [Server thread/INFO]: Preparing level "world"
+[03:16:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:16:56] [Server thread/INFO]: Time elapsed: 102 ms
+[03:16:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:16:56] [Server thread/INFO]: Time elapsed: 26 ms
+[03:16:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:16:56] [Server thread/INFO]: Time elapsed: 13 ms
+[03:16:56] [Server thread/INFO]: [DiggerCraft] Enabling DiggerCraft v1.0-SNAPSHOT
+[03:16:56] [Server thread/INFO]: [DiggerCraft] Hello World!
+[03:16:56] [Server thread/INFO]: Running delayed init tasks
+[03:16:56] [Server thread/INFO]: Done (1.726s)! For help, type "help"
+[03:16:56] [Server thread/INFO]: Timings Reset
+[03:17:06] [User Authenticator #0/INFO]: UUID of player NITIYOUTAROU is e87b276d-df78-4756-93b1-b1bbfca8a53b
+[03:17:06] [Server thread/INFO]: NITIYOUTAROU joined the game
+[03:17:06] [Server thread/INFO]: NITIYOUTAROU[/127.0.0.1:57739] logged in with entity id 213 at ([world]-16.118852402254216, 63.0, 9.791576761293214)
+[03:17:13] [Server thread/INFO]: block is :CraftPlayer{name=NITIYOUTAROU}
+[03:17:13] [Server thread/INFO]: block is :CraftBlock{pos=BlockPosition{x=-17, y=62, z=9},type=RED_WOOL,data=Block{minecraft:red_wool},fluid=net.minecraft.world.level.material.FluidTypeEmpty@249dae5c}
+[03:17:13] [Server thread/INFO]: block is :CraftPlayer{name=NITIYOUTAROU}
+[03:17:25] [Server thread/INFO]: block is :CraftPlayer{name=NITIYOUTAROU}
+[03:17:25] [Server thread/INFO]: block is :CraftBlock{pos=BlockPosition{x=-17, y=62, z=10},type=RED_WOOL,data=Block{minecraft:red_wool},fluid=net.minecraft.world.level.material.FluidTypeEmpty@249dae5c}
+[03:17:25] [Server thread/INFO]: block is :CraftPlayer{name=NITIYOUTAROU}
+[03:17:27] [Server thread/INFO]: block is :CraftPlayer{name=NITIYOUTAROU}
+[03:17:27] [Server thread/INFO]: block is :CraftBlock{pos=BlockPosition{x=-16, y=62, z=10},type=RED_WOOL,data=Block{minecraft:red_wool},fluid=net.minecraft.world.level.material.FluidTypeEmpty@249dae5c}
+[03:17:27] [Server thread/INFO]: block is :CraftPlayer{name=NITIYOUTAROU}
+[03:17:33] [Server thread/INFO]: NITIYOUTAROU lost connection: Disconnected
+[03:17:33] [Server thread/INFO]: NITIYOUTAROU left the game
+[03:21:56] [Server thread/INFO]: Stopping server
+[03:21:56] [Server thread/INFO]: [DiggerCraft] Disabling DiggerCraft v1.0-SNAPSHOT
+[03:21:56] [Server thread/INFO]: Saving players
+[03:21:56] [Server thread/INFO]: Saving worlds
+[03:21:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:21:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:21:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:21:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Saved 650 block chunks, 650 entity chunks, 0 poi chunks in world 'world' in 0.81s
+[03:21:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.44s
+[03:21:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:21:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:21:57] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.10s
+[03:21:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:21:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:21:57] [Server thread/INFO]: Flushing Chunk IO
+[03:21:57] [Server thread/INFO]: Closing Thread Pool
+[03:21:57] [Server thread/INFO]: Closing Server

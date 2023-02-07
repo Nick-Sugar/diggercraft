@@ -1,0 +1,196 @@
+[16:16:58] [Server thread/ERROR]: Could not pass event BlockBreakEvent to DiggerCraft v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.meta.ItemMeta.getDisplayName()" because the return value of "org.bukkit.inventory.ItemStack.getItemMeta()" is null
+	at nicksugar.diggercraft.PlayerEvent.onPlayerBlockBreakEvent(PlayerEvent.java:72) ~[diggercraft-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:git-Paper-386]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:672) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:369) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:328) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:292) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1871) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:42) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.a(ServerboundPlayerActionPacket.java:15) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-386]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[16:17:01] [Server thread/ERROR]: Could not pass event BlockBreakEvent to DiggerCraft v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.meta.ItemMeta.getDisplayName()" because the return value of "org.bukkit.inventory.ItemStack.getItemMeta()" is null
+	at nicksugar.diggercraft.PlayerEvent.onPlayerBlockBreakEvent(PlayerEvent.java:72) ~[diggercraft-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:git-Paper-386]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:672) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:369) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:328) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:292) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1871) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:42) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.a(ServerboundPlayerActionPacket.java:15) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-386]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[16:17:11] [Server thread/ERROR]: Could not pass event BlockBreakEvent to DiggerCraft v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.meta.ItemMeta.getDisplayName()" because the return value of "org.bukkit.inventory.ItemStack.getItemMeta()" is null
+	at nicksugar.diggercraft.PlayerEvent.onPlayerBlockBreakEvent(PlayerEvent.java:72) ~[diggercraft-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:git-Paper-386]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:672) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:369) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:328) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:292) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1871) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:42) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.a(ServerboundPlayerActionPacket.java:15) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-386]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[16:17:20] [Server thread/ERROR]: Could not pass event BlockBreakEvent to DiggerCraft v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.meta.ItemMeta.getDisplayName()" because the return value of "org.bukkit.inventory.ItemStack.getItemMeta()" is null
+	at nicksugar.diggercraft.PlayerEvent.onPlayerBlockBreakEvent(PlayerEvent.java:72) ~[diggercraft-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:git-Paper-386]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:672) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:369) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:328) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:292) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1871) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:42) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.a(ServerboundPlayerActionPacket.java:15) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-386]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[16:17:20] [Server thread/ERROR]: Could not pass event BlockBreakEvent to DiggerCraft v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.meta.ItemMeta.getDisplayName()" because the return value of "org.bukkit.inventory.ItemStack.getItemMeta()" is null
+	at nicksugar.diggercraft.PlayerEvent.onPlayerBlockBreakEvent(PlayerEvent.java:72) ~[diggercraft-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:git-Paper-386]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:672) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:369) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:328) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:292) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1871) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:42) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.a(ServerboundPlayerActionPacket.java:15) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-386]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[16:17:44] [Server thread/ERROR]: Could not pass event BlockBreakEvent to DiggerCraft v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "org.bukkit.inventory.meta.ItemMeta.getDisplayName()" because the return value of "org.bukkit.inventory.ItemStack.getItemMeta()" is null
+	at nicksugar.diggercraft.PlayerEvent.onPlayerBlockBreakEvent(PlayerEvent.java:72) ~[diggercraft-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor1.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:git-Paper-386]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:672) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyBlock(ServerPlayerGameMode.java:369) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.destroyAndAck(ServerPlayerGameMode.java:328) ~[?:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.handleBlockBreakAction(ServerPlayerGameMode.java:292) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handlePlayerAction(ServerGamePacketListenerImpl.java:1871) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.handle(ServerboundPlayerActionPacket.java:42) ~[?:?]
+	at net.minecraft.network.protocol.game.ServerboundPlayerActionPacket.a(ServerboundPlayerActionPacket.java:15) ~[?:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-386]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-386]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[16:17:49] [Server thread/INFO]: NITIYOUTAROU lost connection: Disconnected
+[16:17:49] [Server thread/INFO]: NITIYOUTAROU left the game
+[17:17:11] [Server thread/INFO]: Stopping server
+[17:17:11] [Server thread/INFO]: [DiggerCraft] Disabling DiggerCraft v1.0-SNAPSHOT
+[17:17:11] [Server thread/INFO]: Saving players
+[17:17:12] [Server thread/INFO]: Saving worlds
+[17:17:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Saved 761 block chunks, 126 entity chunks, 2 poi chunks in world 'world' in 0.29s
+[17:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:17:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 21 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[17:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:17:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:17:12] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[17:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:17:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:17:12] [Server thread/INFO]: Flushing Chunk IO
+[17:17:12] [Server thread/INFO]: Closing Thread Pool
+[17:17:12] [Server thread/INFO]: Closing Server

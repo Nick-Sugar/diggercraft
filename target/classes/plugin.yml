@@ -1,0 +1,4 @@
+name: DiggerCraft
+version: '1.0-SNAPSHOT'
+main: nicksugar.diggercraft.Diggercraft
+api-version: 1.19
