@@ -1,0 +1,4 @@
+name: DiggerCraft
+version: '${project.version}'
+main: nicksugar.diggercraft.Diggercraft
+api-version: 1.19
