@@ -1,3 +1,3 @@
-pluginserver/*
+pluginserver/
 !paper-1.19.3-386.jar
 !eula.txt
