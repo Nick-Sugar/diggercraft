@@ -53,7 +53,7 @@ public class PlayerEvent implements Listener{
         // ブロックに対する右クリックか？
         if (event.getAction() == Action.RIGHT_CLICK_BLOCK) {
             // 対象は羊毛ブロックか？
-            if (block.getType() != Material.RED_WOOL) {
+            if (block.getType() != Material.GREEN_WOOL) {
                 // 赤の羊毛に変える
                 block.setType(Material.DIAMOND_BLOCK);
             }
